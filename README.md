@@ -38,4 +38,10 @@ The easiest way to run the project is [google colab](https://colab.research.goog
 - The breed distribution is shown bellow:
 ![alt text](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download.png)
 
+### 3. Create Stuctured Folders
+since all the training images are in the same folder, I will create a folders of each class and copy the each training image to its appropriate classes.
+
+### 4. Visualize Input Images
+we can visualize random training images in order to have good understanding what data we are using.
+![alt text](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download2.png)
 
