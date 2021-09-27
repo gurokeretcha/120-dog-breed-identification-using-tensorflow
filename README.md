@@ -67,7 +67,7 @@ we  use models such as : NASNetLarge, InceptionResNetV2, Xception and EfficientN
 ![Confusion Matrix](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/confusion_matrix.png)
 
 - F1 score plot
-![F1 Score of each classes](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download5.png)
+![F1 Score of each classes](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download6.png)
 
 
 
