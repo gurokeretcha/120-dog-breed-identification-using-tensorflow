@@ -64,7 +64,10 @@ we  use models such as : NASNetLarge, InceptionResNetV2, Xception and EfficientN
 
 ### 9. Evaluation Model Performance
 - as confusion matrix shows, the model finds it difficult to distinguish collie vs border_collie, siberian_husky vs eskimo dog, american_staffordshire_terrier vs soft_coated_wheaten_terrier
-![alt text](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/confusion_matrix.png)
+![Confusion Matrix](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/confusion_matrix.png)
+
+- F1 score plots
+![F1 Score of each classes](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download5.png)
 
 
 
