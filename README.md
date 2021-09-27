@@ -56,6 +56,11 @@ In order to know what will be optimal image size for training we need to visuali
 - created model callbacks such as checkpoint_callbacks, early_stopping, reduce_lr, learning_rate_scheculer, tensorboard_callback. some of the callbacks are not used in this project, but can be used later for further improvements.
 ### 8. Training Models
 #### - 8.1 Model_0: Baseline
-baseline model is created using transfer learning feature extraction(used EfficientNetB0). Input examples are split into 2 parts, training and validation images(70%/30%). early_stopping stopped training after As the models shows the accuracy score on validation images is  
-and as the training history shows even though the validation accuracy is not improving the same way as training accuracy, the overall model generalization still exist.
+baseline model is created using transfer learning feature extraction(used EfficientNetB0). Input examples are split into 2 parts, training and validation images (70%/30%). early_stopping stopped training after 11 apochs and as the models shows the **accuracy score on validation images is 0.8438**. 
+### - 8.2 Model_1: Concatination of different pre-trained models.
+our goal is to imporve evaluation score and generalize the model performance as well. That is why we use The best pre-trained model feature extraction Concatination. 
+we  use models such as : NASNetLarge, InceptionResNetV2, Xception and EfficientNetB7. our goal is to extract feature from each pre trained model and concatinate those features horizontally. As it shows in the end, after concatination we get feature map with the shape of 10222 x 10176. and after 12 epochs the **evaluation score on validation set is 0.9408** which is a huge improvement from previous models. Also if we look at the training history, even though the validation accuracy is not improving the same way as training accuracy, the overall model generalization still exist.
+![alt text](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download4.png)
+
+
 
