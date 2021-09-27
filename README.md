@@ -2,7 +2,10 @@
 top 10% kaggle solution
 
 ## project Description:
-This project is part of   [Kaggle's](https://www.kaggle.com/c/dog-breed-identification) Playground Prediction Competitions. The project is multi-class classification problem, where we need to classify dogs into one of the 120 breeds. The dataset that is provided is  [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
+This project is part of   [Kaggle's](https://www.kaggle.com/c/dog-breed-identification) Playground Prediction Competitions. The project is multi-class classification problem, where we need to classify dogs into one of the 120 breeds. Provided dataset is  [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) with 10222 training and 10357 test images.
+
+## Set up Environment:
+The easiest way to run the project is [google colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index#recent=true).
 
 
 ## Table of content:
