@@ -36,6 +36,6 @@ The easiest way to run the project is [google colab](https://colab.research.goog
 ### 2. Understand the Data
 - There are 10222 training and 10357 test images with 120 different classes.
 - The breed distribution is shown bellow:
-![alt text](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download.png.jpg)
+![alt text](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download.png)
 
 
