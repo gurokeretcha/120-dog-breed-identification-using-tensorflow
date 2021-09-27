@@ -1,6 +1,10 @@
 # 120-dog-breed-identification-using-tensorflow
 top 10% kaggle solution
 
+## project Description:
+This project is part of   [Kaggle's](https://www.kaggle.com/c/dog-breed-identification) Playground Prediction Competitions. The project is multi-class classification problem, where we need to classify dogs into one of the 120 breeds. The dataset that is provided is  [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
+
+
 ## Table of content:
 1. Import Funtions and Libraries
 2. Understand the Data
@@ -22,4 +26,5 @@ top 10% kaggle solution
 
 
 
+### 1. Import Funtions and Libraries
 
