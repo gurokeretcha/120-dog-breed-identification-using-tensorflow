@@ -24,6 +24,7 @@ The easiest way to run the project is [google colab](https://colab.research.goog
 9. Evaluation Model Performance
 10. Train on test set and make prediction
 11. Custom Image Prediction (My GF's dog prediction)
+12. Future Work
 
 
 
@@ -66,9 +67,20 @@ we  use models such as : NASNetLarge, InceptionResNetV2, Xception and EfficientN
 - as confusion matrix shows, the model finds it difficult to distinguish collie vs border_collie, siberian_husky vs eskimo dog, american_staffordshire_terrier vs soft_coated_wheaten_terrier
 ![Confusion Matrix](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/confusion_matrix.png)
 
-- F1 score plot
+- as F1 score plots last 11 classes have f1-score less than 85%. these can be improved by providing additional images of these classes and cleaning the data
 ![F1 Score of each classes](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download6.png)
 
+### 10. Train on test set and make prediction
+- we create a concatinated feature map for test images and make prediction with the model_1. 
+- uploaded Submision_test_dataset.csv to kaggle.
+- Result on kuggle: 0.18239
+![F1 Score of each classes](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/res.png)
 
 
 
+### 11. Custom Image Prediction (My GF's dog prediction)
+I uploaded my girlfriend's dog called Duche which is retriever labrador. and let's see what our model predicts:
+
+
+### 12. Future Work
+in order to improve model's performance we can
