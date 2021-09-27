@@ -73,14 +73,20 @@ we  use models such as : NASNetLarge, InceptionResNetV2, Xception and EfficientN
 ### 10. Train on test set and make prediction
 - we create a concatinated feature map for test images and make prediction with the model_1. 
 - uploaded Submision_test_dataset.csv to kaggle.
-- Result on kuggle: 0.18239
+- Result on kaggle: 0.18239
 ![F1 Score of each classes](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/res.png)
 
 
 
 ### 11. Custom Image Prediction (My GF's dog prediction)
-I uploaded my girlfriend's dog called Duche which is retriever labrador. and let's see what our model predicts:
+I uploaded my girlfriend's dog called Duche which is retriever. and let's see what our model predicts:
+![F1 Score of each classes](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/duchee.png)
+
 
 
 ### 12. Future Work
-in order to improve model's performance we can
+in order to improve model's performance we additional methods such as:
+- data augmentation 
+- fine tuning
+- different combination of pre-trained models
+- manual data cleaning
