@@ -60,7 +60,7 @@ baseline model is created using transfer learning feature extraction(used Effici
 ### - 8.2 Model_1: Concatination of different pre-trained models.
 our goal is to imporve evaluation score and generalize the model performance as well. That is why we use The best pre-trained model feature extraction Concatination. 
 we  use models such as : NASNetLarge, InceptionResNetV2, Xception and EfficientNetB7. our goal is to extract feature from each pre trained model and concatinate those features horizontally. As it shows in the end, after concatination we get feature map with the shape of 10222 x 10176. and after 12 epochs the **evaluation score on validation set is 0.9408** which is a huge improvement from previous models. Also if we look at the training history, even though the validation accuracy is not improving the same way as training accuracy, the overall model generalization still exist.
-![alt text](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download4.png)
+![alt text](https://github.com/gurokeretcha/120-dog-breed-identification-using-tensorflow/blob/main/output_imgs/download 4.png)
 
 
 
